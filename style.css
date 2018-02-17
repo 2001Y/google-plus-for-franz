@@ -8,15 +8,15 @@
   margin-left: 65px; width: calc(100% - 90px);
 }
 .TdBWGb,.Nb2Prf,.AlZIPe,.gb_vb,.gb_Db,.gb_Ea,.gb_0b {
-  display: none;
+  display: none !important;
 }
 .gb_wb {
   position: relative;
 }
 .gb_Ab {
-  background-size: 48px 48px;
-  height: 48px;
-  width: 48px;
+  background-size: 48px 48px !important;
+  height: 48px !important;
+  width: 48px !important;
 }
 .gb_lb {
   width: 48px;
