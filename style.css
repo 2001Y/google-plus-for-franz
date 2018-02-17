@@ -7,7 +7,7 @@
 .pd4VHb {
   margin-left: 65px; width: calc(100% - 90px);
 }
-.TdBWGb,.Nb2Prf,.AlZIPe,.gb_vb,.gb_Db,.gb_Ea,.gb_0b {
+.TdBWGb,.Nb2Prf,.AlZIPe,.gb_vb,.gb_Db,.gbp1,.gb_0b {
   display: none !important;
 }
 .gb_wb {
@@ -23,20 +23,20 @@
   margin-right: 20px;
 }
 .gb_Qb {
-  margin: none !important;
+  margin: 0 !important;
 }
 .gb_lb {
   padding: 3px 0 !important;
   width: 48px !important;
 }
-.gb_Ob {
-  position: relative;
-}
 .gb_yb,.gb_Zb {
   position: absolute;
-  top: 50%;
+  top: 22px;
 }
-.gb_4b:after {
+.gb_4b {
+  height: 1.5em;
+}
+.gb_4b:before {
   content: "ブランドアカウント";
   visibility: visible;
 }
