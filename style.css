@@ -7,8 +7,23 @@
 .pd4VHb {
   margin-left: 65px; width: calc(100% - 90px);
 }
-.AlZIPe {
+.TdBWGb,.Nb2Prf,.AlZIPe,.gb_vb,.gb_Db,.gb_Ea,.gb_0b {
   display: none;
+}
+.gb_wb {
+  position: relative;
+}
+.gb_Ab {
+  background-size: 48px 48px;
+  height: 48px;
+  width: 48px;
+}
+.gb_lb {
+  width: 48px;
+}
+.gb_yb {
+  position: absolute;
+  top: 50%;
 }
 .PvjVhe {
   border: 0; padding-bottom: 0px; margin-bottom: 0px;
@@ -19,7 +34,7 @@
 .aPExg {
   width: 90%; margin-left: 70px;
 }
-.gb_ea,#gbwa {
+#gbwa {
   visibility: hidden;
 }
 .JhVB8e {
@@ -27,9 +42,6 @@
 }
 .YRgYyc {
   max-width: 9999999px; margin-left: 20px; margin-right: 0;
-}
-.TdBWGb {
-  display: none;
 }
 .M9kDrd {
   border-radius: 50%; padding: 0 10px; margin: 0 10px;
