@@ -11,6 +11,7 @@
   display: none !important;
 }
 .gb_wb {
+  margin: 10px 20px !important;
   position: relative;
 }
 .gb_Ab {
@@ -19,11 +20,16 @@
   width: 48px !important;
 }
 .gb_lb {
-  width: 48px;
+  padding: 3px 0 !important;
+  width: 48px !important;
 }
 .gb_yb {
   position: absolute;
   top: 50%;
+}
+.gb_4b:after {
+  content: "ブランドアカウント";
+  visibility: visible;
 }
 .PvjVhe {
   border: 0; padding-bottom: 0px; margin-bottom: 0px;
@@ -34,7 +40,7 @@
 .aPExg {
   width: 90%; margin-left: 70px;
 }
-#gbwa {
+#gbwa,.gb_4b {
   visibility: hidden;
 }
 .JhVB8e {
