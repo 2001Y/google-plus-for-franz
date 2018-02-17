@@ -19,11 +19,20 @@
   height: 48px !important;
   width: 48px !important;
 }
+.gb_Xb {
+  margin-right: 20px;
+}
+.gb_Qb {
+  margin: none !important;
+}
 .gb_lb {
   padding: 3px 0 !important;
   width: 48px !important;
 }
-.gb_yb {
+.gb_Ob {
+  position: relative;
+}
+.gb_yb,.gb_Zb {
   position: absolute;
   top: 50%;
 }
