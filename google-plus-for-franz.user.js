@@ -16,5 +16,4 @@
 let link = document.createElement('link');
 link.href = "//rawgit.com/2001Y/google-plus-for-franz/master/style.css";
 link.rel = 'stylesheet';
-document.getElementsByTagName('head').item(0).appendChild(link);
-});
+document.getElementsByTagName('head').item(0).appendChild(link);z
