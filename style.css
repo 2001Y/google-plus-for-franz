@@ -73,7 +73,7 @@
   display: block;
 }
 .original-setting {
-  padding: 12px 0;
+  padding: 12px 10px;
 }
 .original-setting:hover {
   background-color: #e7e7e7
