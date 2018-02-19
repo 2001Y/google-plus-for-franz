@@ -59,7 +59,15 @@
   max-width: 9999999px; margin-left: 20px; margin-right: 0;
 }
 .M9kDrd,.original-setting {
-  border-radius: 50%; padding: 0 10px; margin: 0 10px;
+  border-radius: 50%;
+  padding: 0 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  opacity: .85;
+  line-height: 50px;
+}
+.original-setting:hover {
+  background-color: #e7e7e7
 }
 .pWQY8d {
   background-color: #e7e7e7;
