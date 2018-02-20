@@ -93,11 +93,20 @@
   position: fixed;
   top: calc(50% - 60%/2);
   left: calc(50% - 60%/2);
-  z-index: 999999999999;
   box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
   visibility: hidden;
   transition: .3s;
+  z-index: 999999999999;
 }
 .open {
   visibility: visible;
+}
+.blur {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  opacity: .5;
+  visibility: hidden;
+  transition: .3s;
+  z-index: 9999999999;
 }
