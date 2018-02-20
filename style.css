@@ -96,17 +96,19 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
   visibility: hidden;
   transition: .3s;
+  opacity: 0;
   z-index: 999999999999;
-}
-.open {
-  visibility: visible;
 }
 .blur {
   width: 100vw;
   height: 100vh;
-  background: #000;
-  opacity: .5;
+  background: rgba(0, 0, 0, 0.6);
   visibility: hidden;
   transition: .3s;
+  opacity: 0;
   z-index: 9999999999;
+}
+.open {
+  visibility: visible;
+  opacity: 1;
 }
