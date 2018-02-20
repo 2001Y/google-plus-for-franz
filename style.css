@@ -84,3 +84,14 @@
 .jxKp7.H68wj,.GcESAf {
   max-width: 9999px;
 }
+.window {
+  width: 60%;
+  height: 60%;
+  background: #fff;
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  right: 50%;
+  left: 50%;
+  fixed: 999999999999;
+}
