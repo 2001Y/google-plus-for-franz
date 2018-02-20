@@ -89,8 +89,8 @@
   height: 60%;
   background: #fff;
   position: fixed;
-  top:calc(50% - 50px/2);
-  left:calc(50% - 50px/2);
+  top: calc(50% - 60%/2);
+  left: calc(50% - 60%/2);
   z-index: 999999999999;
   box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
 }
