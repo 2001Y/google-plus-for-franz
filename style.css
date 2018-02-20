@@ -111,6 +111,7 @@
   opacity: 0;
   z-index: 99999;
   backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 .open {
   visibility: visible;
