@@ -87,33 +87,33 @@
 .window {
   width: 60%;
   height: 60%;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 15px;
   background: #fff;
   position: fixed;
-  top: calc(50% - 60%/2);
+  bottom: -60%;
   left: calc(50% - 60%/2);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
   visibility: hidden;
-  transition: .3s;
   opacity: 0;
   z-index: 999999999999;
 }
 .blur {
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, 0.12);
   position: fixed;
   top: 0;
   left: 0;
   visibility: hidden;
-  transition: .3s;
   opacity: 0;
   z-index: 99999;
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
 }
 .open {
   visibility: visible;
   opacity: 1;
+  transition: .3s;
+}
+.open.window {
+  top: calc(50% - 60%/2);
 }
