@@ -116,5 +116,5 @@
   opacity: 1;
 }
 .open.window {
-  top: calc(50% - 60%/2);
+  bottom: calc(50% - 60%/2);
 }
