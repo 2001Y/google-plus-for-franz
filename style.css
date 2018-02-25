@@ -67,13 +67,17 @@
 }
 .M9kDrd {
   height: 50px;
+  width: 30px;
   border-radius: 50%;
   padding: 0 10px;
-  margin: 0 10px;
+  margin: 0 7.5px;
   cursor: pointer;
   opacity: .85;
   line-height: 50px;
   display: block;
+}
+.Hj0nzc {
+  padding-left: 3px;
 }
 .pWQY8d {
   background-color: #e7e7e7;
