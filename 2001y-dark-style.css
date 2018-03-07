@@ -75,3 +75,13 @@ a.xdjHt.FYQzvb, .xdjHt.FYQzvb.ex5ZEb, div.KSpDGb {
 .JPdR6b {
   color: #fff;
 }
+
+.original-setting img {
+  filter: brightness(0) invert(1);
+}
+.blur {
+  background: rgba(250, 250, 250, 0.12);
+}
+.window {
+  background-color: #424242;
+}
